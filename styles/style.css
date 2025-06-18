@@ -2,17 +2,19 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
-.logo > img{
-    width: 100px;
-    height: 100px;
-    object-fit: contain;
-}
+
 
 
 /*Nav*/
 .nav-mobil{
     display: none;
+}
+.logo > img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
 }
 
 .header{

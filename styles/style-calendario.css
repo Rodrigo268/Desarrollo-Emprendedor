@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+#calendar {
+      max-width: 900px;
+      margin: 40px auto;
+}
+
+/*Nav*/
+.nav-mobil{
+    display: none;
+}
+.logo > img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.header{
+    background-color: #1d2d44;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav .nav-desktop ul{
+    display: flex;
+    list-style: none;
+}
+.nav .nav-desktop a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-right: 20px;
+    padding-right: 10px;
+}
+
+.nav .nav-desktop a:hover{
+    color: #96e6b3;
+}
+
+
+/*Footer y Redes*/
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1d2d44;
+}
+.redes{
+    display: flex;
+}
+.redes a{
+    display: inline-block;
+    padding-top: 4px;
+    color: #fff;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+.contacto-instagram{
+    width: 30px;
+    height: 30px;
+}
+.contacto-facebook{
+    width: 30px;
+    height: 30px;
+}
+.contacto-twitter{
+    
+    width: 28px;
+    height: 28px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+.redes .twitter{
+    margin-top: 25px;
+}
+.twitter{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+
+/*Arreglando el footer*/
+html, body {
+    height: 100%; 
+    margin: 0; 
+}
+
+/* body {
+    display: flex;
+    flex-direction: column;  
+    min-height: 100vh; 
+} */
