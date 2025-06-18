@@ -5,6 +5,9 @@
     scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
 
 
 /*Nav*/
@@ -70,6 +73,7 @@
     display: flex;
     justify-content: space-around;
     padding-top: 200px;
+
 }
 .sobre-nosotros > .contenedor-main-texto{
     width: 50%;
@@ -183,7 +187,7 @@
     margin-top: 50px;
 }
 
-/*Premiun*/
+/*Premium*/
 .premium{
     display: flex;
     background-color: #F5F5F5;
@@ -194,6 +198,7 @@
 }
 .contenedor-imagen-premium > img{
     width: 300px;
+    margin-right: 50px;
 }
 .contenedor-texto-premium{
     margin-top: 50px;
@@ -261,6 +266,12 @@
     height: 30px;
     padding-top: 10px;
 }
+.redes .email{
+    color: #c9c8c7;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
 
 
 /*Arreglando el footer*/
@@ -276,4 +287,158 @@ html, body {
 } */
 
 
+
+/*mobil*/
+
+@media screen and (min-width: 375px) and (max-width: 700px) {
+   html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* prevenir scroll horizontal */
+  width: 100%;
+}
+  /* Header y navegación */
+  .header {
+    width: 100%;
+    display: flex;
+    background-color: #1d2d44;
+    margin: 0px;
+    padding: 0px;
+  }
+  .header .nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  .nav-desktop {
+    display: none;
+  }
+  .nav .nav-mobil {
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .nav .nav-mobil{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .nav-mobil li {
+    list-style: none;
+  }
+  .nav-mobil a {
+    font-size: 18px;
+    color: #fff;
+    margin-left: 5px;
+    text-decoration: none;
+  }
+
+  /* Sobre nosotros */
+  .main, .sobre-nosotros {
+    width: 100%;
+    background-color: #F5F5F5;
+  }
+  .sobre-nosotros {
+    display: block;
+    padding: 20px;
+  }
+  .sobre-nosotros .contenedor-main-texto {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .contenedor-img-main {
+    display: none;
+  }
+
+  /* Inputs */
+  .consulta-IA {
+    width: 100%;
+    max-width: none;
+    padding: 12px;
+  }
+  .btn-enviar {
+    width: 100%;
+    max-width: none;
+    margin: 10px 0 0;
+  }
+
+  /* Servicios */
+  .servicios {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+    gap: 20px;
+  }
+  .servicios .tips-cuidados{
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  .servicios .calendario{
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  .servicios .consejos{
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+   .servicios .informacion{
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  .servicios img {
+    width: 60px;
+    margin: 0 auto 10px;
+  }
+
+  /* Premium */
+  .premium {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    background-color: #F5F5F5;
+  }
+  .contenedor-imagen-premium img {
+    width: 100px;
+    margin: 0 auto 10px;
+  }
+  .contenedor-texto-premium {
+    padding: 10px;
+  }
+  .contenedor-texto-premium a {
+    margin: 20px auto 0;
+  }
+
+  /* Footer */
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #1d2d44;
+  }
+  .footer .logo img {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+  .redes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .redes .email {
+    color: #c9c8c7;
+    font-size: 14px;
+  }
+}
 
