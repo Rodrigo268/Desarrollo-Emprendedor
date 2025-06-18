@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.logo > img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.nav-mobil{
+    display: none;
+}
+.contenedor-logo-cuidados > img{
+    width: 80px;
+    height: 80px;
+}
+.contenedor-logo-calendario > img{
+    width: 80px;
+    height: 80px;
+}
+.contenedor-logo-consejos > img{
+    width: 80px;
+    height: 80px;
+}
+.contenedor-logo-informacion > img{
+    width: 80px;
+    height: 80px;
+}
+
+
+/*footer*/
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    margin-top: 100px;
+
+}
+
+/*Arreglando el footer*/
+html, body {
+    height: 100%; 
+    margin: 0; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;  
+    min-height: 100vh; 
+}
+
+
+main {
+    flex-grow: 1; 
+}
+
+
+
+/*Redes*/
+.redes{
+    display: flex;
+}
+.redes a{
+    display: inline-block;
+    border: 2px solid #000;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    padding-top: 4px;
+}
+.contacto-instagram{
+    width: 30px;
+    height: 30px;
+}
+.contacto-facebook{
+    width: 30px;
+    height: 30px;
+}
+.contacto-twitter{
+    width: 28px;
+    height: 28px;
+}
+
+
+
+
