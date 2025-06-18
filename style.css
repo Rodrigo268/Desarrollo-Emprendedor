@@ -60,10 +60,62 @@
 
 /*Main*/
 .main{
-    display: flex;
     background-color: #F5F5F5;
     height: 100vh;
+    width: 100%;
 }
+.sobre-nosotros{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 200px;
+}
+.sobre-nosotros > .contenedor-main-texto{
+    width: 50%;
+
+}
+.contenedor-main-texto h3{
+    margin-top: 20px;
+}
+.contenedor-main-texto p{
+    margin-top: 20px;
+}
+.consulta-IA {
+  width: 500px;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  margin-top: 50px;
+}
+
+.consulta-IA:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 0 3px #0056b3;
+}
+
+.btn-enviar {
+  width: 80px;
+  padding: 12px 16px;
+  margin-left: 8px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-enviar:hover {
+  background-color: #0056b3;
+}
+
+.contenedor-img-main > img{
+    width: 300px;
+}
+
 
 
 /*Servicios*/
@@ -77,6 +129,7 @@
     margin-top: 100px;
     margin-left: 100px;
     text-align: center;
+    padding-bottom: 120px;
 }
 
 .servicios > .tips-cuidados{
@@ -128,14 +181,47 @@
     margin-top: 50px;
 }
 
+/*Premiun*/
+.premium{
+    display: flex;
+    background-color: #F5F5F5;
+    height: 60%;
+    justify-content: space-around;
+    padding: 80px 0;
+    
+}
+.contenedor-imagen-premium > img{
+    width: 300px;
+}
+.contenedor-texto-premium{
+    margin-top: 50px;
+}
+.contenedor-texto-premium > h2{
+    margin-bottom: 20px;
+}
 
+.contenedor-texto-premium > a{
+    background-color: #083D77;
+    width: 160px;
+    height: 60px;
+    border-radius: 40px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 80px;
+    text-align: center;
+    padding-top: 18px;
+    font-size: 20px;
+    float: right;
+}
+
+.contenedor-texto-premium > a:hover{
+    box-shadow: 1px 3px 5px #1a73c7;
+}
 /*Footer y Redes*/
 .footer{
     display: flex;
     justify-content: space-between;
     background-color: #1d2d44;
-    margin-top: 100px;
-
 }
 .redes{
     display: flex;
