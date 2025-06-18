@@ -8,9 +8,38 @@
     height: 100px;
     object-fit: contain;
 }
+
+
+/*Nav*/
 .nav-mobil{
     display: none;
 }
+
+.header{
+    background-color: #1d2d44;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav .nav-desktop ul{
+    display: flex;
+    list-style: none;
+}
+.nav .nav-desktop a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-right: 20px;
+    padding-right: 10px;
+}
+
+.nav .nav-desktop a:hover{
+    color: #96e6b3;
+}
+
+
 .contenedor-logo-cuidados > img{
     width: 80px;
     height: 80px;
@@ -29,46 +58,95 @@
 }
 
 
-/*footer*/
+/*Main*/
+.main{
+    display: flex;
+    background-color: #F5F5F5;
+    height: 100vh;
+}
+
+
+/*Servicios*/
+
+.servicios{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.servicios > .tips-cuidados{
+    background-color: #F5F5F5;
+    width: 34%;
+    height: 350px;
+}
+.servicios section{
+    border-radius: 50px;
+}
+.servicios section p{
+    margin-top: 18px;
+}
+
+.servicios section a{
+    display: inline-block;
+    background-color: #083D77;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+.servicios section a:hover{
+    box-shadow: 1px 3px 5px #1a73c7;
+}
+
+.servicios section img{
+    margin-top: 50px;
+}
+.servicios > .calendario{
+    background-color: #F5F5F5;
+    width: 34%;
+    height: 350px;
+}
+.servicios > .consejos{
+    background-color: #F5F5F5;
+    width: 34%;
+    height: 350px;
+    margin-top: 50px;
+}
+.servicios > .informacion{
+    background-color: #F5F5F5;
+    width: 34%;
+    height: 350px;
+    margin-top: 50px;
+}
+
+
+/*Footer y Redes*/
 .footer{
     display: flex;
     justify-content: space-between;
-    background-color: gray;
+    background-color: #1d2d44;
     margin-top: 100px;
 
 }
-
-/*Arreglando el footer*/
-html, body {
-    height: 100%; 
-    margin: 0; 
-}
-
-body {
-    display: flex;
-    flex-direction: column;  
-    min-height: 100vh; 
-}
-
-
-main {
-    flex-grow: 1; 
-}
-
-
-
-/*Redes*/
 .redes{
     display: flex;
 }
 .redes a{
     display: inline-block;
-    border: 2px solid #000;
-    border-radius: 100%;
-    width: 42px;
-    height: 42px;
-    text-align: center;
     padding-top: 4px;
+    color: #fff;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
 }
 .contacto-instagram{
     width: 30px;
@@ -79,10 +157,35 @@ main {
     height: 30px;
 }
 .contacto-twitter{
+    
     width: 28px;
     height: 28px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+.redes .twitter{
+    margin-top: 25px;
+}
+.twitter{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
 }
 
+
+/*Arreglando el footer*/
+html, body {
+    height: 100%; 
+    margin: 0; 
+}
+
+/* body {
+    display: flex;
+    flex-direction: column;  
+    min-height: 100vh; 
+} */
 
 
 
