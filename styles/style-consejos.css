@@ -44,31 +44,55 @@ body {
     color: #96e6b3;
 }
 
-/*Main*/
-.main{
-    min-height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
+ /*Main*/
+.main-consejos{
+  min-height: 100vh;
 }
-.main .tips-cuidados{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+ /* Consejo generales ocupa todo el ancho */
+.consejos-generales {
     width: 100%;
-    margin-top: 80px;
-}
-.tips-cuidados .contenedor-logo-cuidados{
-    width: 40%;
-    height: 250px;
-    background-color: #f0f0f0;
-    border-radius: 20px;
+    padding: 2rem;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+    margin-top: 50px;
     text-align: center;
-    padding: 20px;
-    margin-bottom: 80px;
 }
-.contenedor-logo-cuidados p{
-    margin-top: 18px;
+.consejos-generales ul{
+list-style: none;
 }
+.consejos-generales >.seccion-consejos-generales{
+  background-color: #f0f0f0;
+  width: 50%;
+  height: 250px;
+  padding-top: 50px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.consejos-generales >.seccion-consejos-generales li{
+  margin-top: 10px;
+}
+
+/* Contenedor flex para perros y gatos uno al lado del otro */
+.contenedor-perros-gatos {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 0 2rem;
+    margin-top: 100px;
+}
+
+/* Cada columna ocupa 50% o menos */
+.consejos-perros,
+.consejos-gatos {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+/* Responsivo para pantallas pequeñas */
+
 
 
 
@@ -120,6 +144,7 @@ body {
     margin-top: 30px;
     margin-right: 100px;
 }
+
 
 
 @media screen and (min-width: 300px) and (max-width: 700px) {
@@ -175,33 +200,17 @@ html, body {
   }
 
   /*Main*/
-
-
-.main{
- padding-bottom: 50px;
-}
-
-.main .tips-cuidados{
-    display: flex;
-    height: 100vh;
-    flex-wrap: wrap;
+ .consejos-generales > .seccion-consejos-generales{
     width: 100%;
-    margin-top: 80px;
-    flex-direction: column;
-    align-items: center;
-}
-.tips-cuidados .contenedor-logo-cuidados{
-    width: 100%;
-    height: 250px;
-    background-color: #f0f0f0;
-    border-radius: 20px;
-    text-align: center;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-.contenedor-logo-cuidados p{
-    margin-top: 10px;
-}
+    height: auto;
+
+  }
+
+  .contenedor-perros-gatos {
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
 
 
 
@@ -234,4 +243,3 @@ html, body {
     margin: 10px 0;
   }
 }
-
