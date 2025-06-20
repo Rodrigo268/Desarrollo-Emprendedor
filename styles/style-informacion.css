@@ -44,83 +44,50 @@ body {
     color: #96e6b3;
 }
 
- /*Main*/
-.main-consejos{
-  min-height: 100vh;
-}
- /* Consejo generales ocupa todo el ancho */
-.consejos-generales {
-    width: 100%;
-    padding: 2rem;
-    box-sizing: border-box;
-    margin-bottom: 2rem;
-    margin-top: 50px;
-    text-align: center;
-}
-.consejos-generales ul{
-list-style: none;
-}
-.consejos-generales >.seccion-consejos-generales{
-  background-color: #F8F1E5;
-  width: 50%;
-  height: 270px;
-  padding-top: 50px;
-  border-radius: 40px;
-  margin: 0 auto;
 
-}
-.consejos-generales >.seccion-consejos-generales li{
-  margin-top: 10px;
-}
-
-/* Contenedor flex para perros y gatos uno al lado del otro */
-.contenedor-perros-gatos {
+/*Main*/
+.main-informacion{
     display: flex;
-    gap: 2rem;
-    margin: 0 auto;
-    padding: 0 2rem;
-    margin-top: 100px;
+    min-height: 100vh;
+    width: 100%;
+    flex-wrap: wrap;
     padding-bottom: 50px;
-    width: 80%;
 }
-
-/* Cada columna ocupa 50% o menos */
-.consejos-perros,
-.consejos-gatos {
-    flex: 1;
+.contenedor-informacion{
+    width: 100%;
+}
+.contenedor-informacion h1{
+    margin-bottom: 10px;
+}
+.contenedor-informacion .seccion-informacion{
+    width: 60%;
     background-color: #F8F1E5;
-    padding: 1.5rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    box-sizing: border-box;
-    border-radius: 40px;
-    list-style: none;
+    margin: 0 auto;
+    height: 120px;
     text-align: center;
-}
-.consejos-gatos{
-  margin-left: 100px;
-}
-.consejos-perros-seccion{
-  padding-bottom: 20px;
-}
-.consejos-perros-seccion ul{
-  list-style: none;
-}
-.consejos-perros-seccion > h2{
-  margin-bottom: 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding-top: 10px;
 }
 
-.consejos-gatos-seccion{
-  padding-bottom: 20px;
+.contenedor-informacion .seccion-informacion ul{
+    list-style: none;
 }
-.consejos-gatos-seccion > ul{
-  list-style: none;
+.contenedor-informacion .title-h1{
+    padding-top: 40px;
+    
 }
-.consejos-gatos-seccion > h2{
-  margin-bottom: 20px;
+.contenedor-informacion .title-h2{
+     padding-top: 40px;
 }
-
-
-
+.contenedor-informacion .title-h1{
+    background-color: #2C5364;
+    color: #fff;
+}
+.contenedor-informacion .title-h2{
+    background-color: #2C5364;
+    color: #fff;
+}
 
 /*Footer y Redes*/
 .footer{
@@ -169,6 +136,7 @@ list-style: none;
     margin-top: 30px;
     margin-right: 100px;
 }
+
 
 
 
@@ -224,17 +192,13 @@ html, body {
     text-decoration: none;
   }
 
+
   /*Main*/
- .consejos-generales > .seccion-consejos-generales{
+  .contenedor-informacion .seccion-informacion{
     width: 100%;
 
-  }
-
-  .contenedor-perros-gatos {
-        flex-direction: column;
-        margin-top: 20px;
-        margin-bottom: 50px;
-    }
+    height: 125px;
+}
 
 
 
