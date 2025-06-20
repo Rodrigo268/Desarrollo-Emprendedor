@@ -4,12 +4,12 @@ const header  = document.querySelector("header");
 
 window.onscroll = function(){
 
-    let nuevaLocalivacion = window.pageYOffset;
+    let nuevaLocalizacion = window.pageYOffset;
 
-    if(localizacionInicio > nuevaLocalivacion){
+    if(localizacionInicio > nuevaLocalizacion){
         header.style.top = "0";
     }else{
         header.style.top = "-100px"
     }
-    localizacionInicio = nuevaLocalivacion;
+    localizacionInicio = nuevaLocalizacion;
 }

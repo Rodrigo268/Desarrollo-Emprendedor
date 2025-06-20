@@ -20,6 +20,7 @@ body {
 }
 
 
+
 /* Calendario */
 .calendar {
   max-width: 900px;
@@ -28,7 +29,6 @@ body {
   border: 1px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
-  margin-top: 100px;
 }
 
 .calendar-header {
@@ -129,23 +129,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .header{
     background-color: #1d2d44;
 }
@@ -170,8 +153,10 @@ body {
     color: #96e6b3;
 }
 /*Main*/
+
 .main-calendario{
   height: 100vh;
+  padding-top: 100px;
 }
 
 /*Footer y Redes*/
