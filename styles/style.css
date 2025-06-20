@@ -22,6 +22,9 @@ body {
 
 .header{
     background-color: #1d2d44;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .nav{
     display: flex;
@@ -191,7 +194,7 @@ body {
 .premium{
     display: flex;
     background-color: #F5F5F5;
-    height: 60%;
+    height: 70%;
     justify-content: space-around;
     padding: 80px 0;
     
@@ -220,7 +223,25 @@ body {
     font-size: 20px;
     float: right;
 }
-
+.contenedor-texto-premium h1{
+  text-align: center;
+  color: #083D77;
+}
+.contenedor-texto-premium b{
+  color: #083D77;
+  font-size: 20px;
+}
+.contenedor-texto-premium h3{
+  margin: 20px 0;
+  text-align: center;
+}
+.contenedor-texto-premium ul{
+  text-align: center;
+  list-style: none;
+}
+.contenedor-texto-premium ul li{
+  margin-top: 8px;
+}
 .contenedor-texto-premium > a:hover{
     box-shadow: 1px 3px 5px #1a73c7;
 }

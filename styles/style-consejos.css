@@ -22,6 +22,9 @@ body {
 
 .header{
     background-color: #1d2d44;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .nav{
     display: flex;
@@ -229,6 +232,9 @@ html, body {
     width: 100%;
 
   }
+  .consejos-gatos{
+  margin-left: 10px;
+}
 
   .contenedor-perros-gatos {
         flex-direction: column;

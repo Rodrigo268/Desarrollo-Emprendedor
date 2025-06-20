@@ -9,17 +9,26 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Calendario */
-.main-calendario{
-    height: 80vh;
+/*Nav*/
+.nav-mobil{
+    display: none;
 }
+.logo > img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+
+/* Calendario */
 .calendar {
   max-width: 900px;
   height: 500px;
-  margin: 40px auto;
+  margin: 0px auto;
   border: 1px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
+  margin-top: 100px;
 }
 
 .calendar-header {
@@ -120,15 +129,22 @@ body {
 }
 
 
-/*Nav*/
-.nav-mobil{
-    display: none;
-}
-.logo > img{
-    width: 100px;
-    height: 100px;
-    object-fit: contain;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .header{
     background-color: #1d2d44;
@@ -153,7 +169,10 @@ body {
 .nav .nav-desktop a:hover{
     color: #96e6b3;
 }
-
+/*Main*/
+.main-calendario{
+  height: 100vh;
+}
 
 /*Footer y Redes*/
 .footer{
@@ -229,6 +248,7 @@ html, body {
     background-color: #1d2d44;
     margin: 0px;
     padding: 0px;
+    position: relative;
   }
   .header .nav {
     display: flex;
