@@ -89,6 +89,7 @@ body {
     margin-top: 20px;
 }
 .contenedor-main-texto p{
+  font-size: 20px;
     margin-top: 20px;
 }
 .consulta-IA {
@@ -374,6 +375,7 @@ html, body {
   .contenedor-img-main {
     display: none;
   }
+
 
   /* Inputs */
   .consulta-IA {
