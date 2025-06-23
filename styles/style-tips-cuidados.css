@@ -53,6 +53,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
+    padding-top: 100px;
 }
 .main .tips-cuidados{
     display: flex;

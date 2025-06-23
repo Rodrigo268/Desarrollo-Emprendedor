@@ -56,6 +56,7 @@ body {
     width: 100%;
     flex-wrap: wrap;
     padding-bottom: 50px;
+    padding-top: 100px;
 }
 .contenedor-informacion{
     width: 100%;
